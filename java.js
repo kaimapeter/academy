@@ -1,18 +1,23 @@
 // let age=15;
 // console.log(age)
 
-let firstName = "Nnadi"
-let secondName = "Sochikaima"
-let age = 19;
-let HaveDriverLicense = false
-var Dreamjob = ""
-var Dreamjob = "software Enginner"
+// let firstName = "Nnadi"
+// let secondName = "Sochikaima"
+// let age = 19;
+// let HaveDriverLicense = false
+// var Dreamjob = ""
+// var Dreamjob = "software Enginner"
 
-console.log(typeof firstName);
-console.log(typeof secondName);
-console.log(typeof age);
-console.log(typeof HaveDriverLicense);
-console.log(typeof Dreamjob);
+// console.log(typeof firstName);
+// console.log(typeof secondName);
+// console.log(typeof age);
+// console.log(typeof HaveDriverLicense);
+// console.log(typeof Dreamjob);
+
+var year="1991"
+console.log(typeof year)
+var year=1991
+console.log(typeof year)
 
 
 // console.log(A);
