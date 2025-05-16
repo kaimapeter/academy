@@ -14,10 +14,10 @@
 // console.log(typeof HaveDriverLicense);
 // console.log(typeof Dreamjob);
 
-var year="1991"
-console.log(typeof year)
-var year=1991
-console.log(typeof year)
+// var year="1991"
+// console.log(typeof year)
+// var year=1991
+// console.log(typeof year)
 
 
 // console.log(A);
@@ -207,3 +207,18 @@ console.log(typeof year)
  procedural oriented programming where programs are designed as block of statement to manupulate data 
  OBJECTS represents a real world entity and is the basic building block of OOP
  class blue print of an object, it is the template difinition of an attributes and method of an object*/
+
+ //arethmetic operators
+ let john = 18
+ let mark = 19
+ let peter= 22
+ let paul = 14
+ let josh = 21
+ let avg = (john + mark + peter + paul + josh)/5
+ console.log(`they're average is ${avg}`)
+
+ //comparison operators
+ console.log(john>mark)
+ console.log(peter>mark)
+ console.log(paul==peter)
+ console.log(josh>=paul)
