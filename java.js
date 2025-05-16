@@ -7,12 +7,14 @@
 // let HaveDriverLicense = false
 // var Dreamjob = ""
 // var Dreamjob = "software Enginner"
+// var name=null
 
 // console.log(typeof firstName);
 // console.log(typeof secondName);
 // console.log(typeof age);
 // console.log(typeof HaveDriverLicense);
 // console.log(typeof Dreamjob);
+// console.log(typeof name); it prints object cause everything is an object no matter the type and amount
 
 // var year="1991"
 // console.log(typeof year)
@@ -208,17 +210,18 @@
  OBJECTS represents a real world entity and is the basic building block of OOP
  class blue print of an object, it is the template difinition of an attributes and method of an object*/
 
- //arethmetic operators
- let john = 18
- let mark = 19
- let peter= 22
- let paul = 14
- let josh = 21
- let avg = (john + mark + peter + paul + josh)/5
- console.log(`they're average is ${avg}`)
+//  //arethmetic operators
+//  let john = 18
+//  let mark = 19
+//  let peter= 22
+//  let paul = 14
+//  let josh = 21
+//  let avg = (john + mark + peter + paul + josh)/5
+//  console.log(`they're average is ${avg}`)
 
- //comparison operators
- console.log(john>mark)
- console.log(peter>mark)
- console.log(paul==peter)
- console.log(josh>=paul)
+//  //comparison operators
+//  console.log(john>mark)
+//  console.log(peter>mark)
+//  console.log(paul==peter)
+//  console.log(josh>=paul)
+
