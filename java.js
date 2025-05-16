@@ -9,6 +9,9 @@
 // var Dreamjob = "software Enginner"
 // var name=null
 
+//== values in the varaible has to be the same
+//=== values and the data type has to be the same
+
 // console.log(typeof firstName);
 // console.log(typeof secondName);
 // console.log(typeof age);
@@ -225,3 +228,34 @@
 //  console.log(paul==peter)
 //  console.log(josh>=paul)
 
+// var broke=true
+// var stupid=false
+// console.log(broke&&stupid)//&&-and !!-OR !-not
+
+let mark={
+    w: 78,
+    h: 1.6,
+    caculate :function BMI(w,h){
+        return this.w/(this.h**2)
+}
+}
+let john={
+    w:92,
+    h:1.95 ,
+    caculate :function BMI(w,h){
+       return this.w/(this.h**2)
+}
+}
+console.log(mark.caculate())
+console.log(john.caculate())
+let markhigherBMI= mark.caculate()>john.caculate() 
+console.log(markhigherBMI)
+// var bmi = function(width, height) {
+//     return this.wid
+// }
+
+// function bmi (width, height) {
+//     console.log(width / (height**2))
+// }
+
+// john = bmi(23, 15)
