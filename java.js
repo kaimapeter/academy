@@ -232,24 +232,33 @@
 // var stupid=false
 // console.log(broke&&stupid)//&&-and !!-OR !-not
 
-let mark={
-    w: 78,
-    h: 1.6,
-    caculate :function BMI(w,h){
-        return this.w/(this.h**2)
-}
-}
-let john={
-    w:92,
-    h:1.95 ,
-    caculate :function BMI(w,h){
-       return this.w/(this.h**2)
-}
-}
-console.log(mark.caculate())
-console.log(john.caculate())
-let markhigherBMI= mark.caculate()>john.caculate() 
-console.log(markhigherBMI)
+// let mark={
+//     w: 78,
+//     h: 1.6,
+//     caculate :function BMI(w,h){
+//         return this.w/(this.h**2)
+// }
+// }
+// let john={
+//     w:92,
+//     h:1.95 ,
+//     caculate :function BMI(w,h){
+//        return this.w/(this.h**2)
+// }
+// }
+// if(mark.caculate()>john.caculate()){
+//     markhigher= true
+//     console.log(markhigher) 
+// }
+// else{
+//     markhigher= false
+//     console.log(markhigher) 
+// }
+
+// console.log(mark.caculate())
+// console.log(john.caculate())
+// let markhigherBMI= mark.caculate()>john.caculate() 
+// console.log(markhigherBMI)
 // var bmi = function(width, height) {
 //     return this.wid
 // }
@@ -258,4 +267,282 @@ console.log(markhigherBMI)
 //     console.log(width / (height**2))
 // }
 
-// john = bmi(23, 15)
+// john = bmi(23, 15) 
+  
+
+// let mark={
+//     fullName:'Igris Mark',
+//     w: 78,
+//     h: 1.6,
+//     caculate :function BMI(w,h){
+//         this.BMI= this.w/(this.h**2)
+//         return this.BMI
+// }
+// }
+// let john={
+//     fullName:'john wick',
+//     w:92,
+//     h:1.95 ,
+//     caculate :function BMI(w,h){
+//          this.BMI= this.w/(this.h**2)
+//         return this.BMI
+// }
+// }
+// mark.caculate()
+// john.caculate()
+
+// if(mark.BMI>john.BMI){
+//     console.log(`${mark.fullName} with is BMI of ${mark.BMI} has the higher BMI`) 
+// }
+// else if(mark.BMI<john.BMI){
+//     console.log(`${john.fullName} with is BMI of ${john.BMI } has the higher BMI`) 
+// }else{
+//     console.log(`they have the same BMI`)
+// }
+
+// age = 18
+// switch(true){
+//     case age<13:
+//      console.log(`john is a boy`)
+//      break
+//     case age>12 && age<18:
+//         console.log(`john is a teenager`)
+//         break
+//     case age>17 && age <30:
+//         console.log(`john is a young man`)
+//         break
+//     default:
+//         console.log(`john is a man`)
+// }
+
+// let john={
+//     a:100,
+//     b:120,
+//     c:119,
+//     average:function avg(a,b,c){
+//       return  (this.a + this.b + this.c)/3
+//     }
+// }
+
+// let mark={
+//     a:116,
+//     b:100,
+//     c:123,
+//     average:function avg(a,b,c){
+//        return (this.a + this.b + this.c)/3
+//     }
+// }
+
+// let mary={
+//     a:100,
+//     b:134,
+//     c:105,
+//     average: function avg(a,b,c){
+//        return (this.a + this.b + this.c)/3
+//     }
+// }
+// console.log("john's average is "+john.average())
+// console.log(`mark's average is ${mark.average()}`)
+// console.log(`mary's average is ${mary.average()}`)
+// if(john.average()>mark.average() && john.average()>mary.average() ){
+//     console.log(`john is the winner`)
+// }else if(john.average()>mark.average() && mark.average()==mary.average() ){
+//     console.log(`john is the winner`)
+// }else if(mark.average()>john.average() && mark.average()>mary.average()){
+//     console.log(`mark is the winner`)
+// }else if(mark.average()>john.average() && john.average()==mary.average()){
+//     console.log(`mark is the winner`)
+// }else if(mary.average()>john.average() && mary.average()>mark.average()){
+//     console.log(`mary is is the winner`) 
+// }else if(mary.average()>john.average() && john.average()==mark.average()){
+//     console.log(`mary is is the winner`) 
+// }else if(mary.average()==john.average() && mary.average()>mark.average()){
+//     console.log(`it's a tie between mary and john`) 
+// }else if(mary.average()>john.average() && mary.average()==mark.average()){
+//     console.log(`its a tie between mary and mark`) 
+// }else if(mark.average()==john.average() && mark.average()>mary.average()){
+//     console.log(`its a tie between mark and john`)
+// }else {
+//     console.log(`its a tie between all of them`)
+// }
+
+// function declaration
+// function whatDoYouDo(job,name){}
+
+// //function expression
+// var whatDoYouDo =function(job,name){
+//     switch (job) {
+//         case 'teacher':
+//             return name + ' teaches children'
+//          case 'driver':
+//             return name + ' drives a bus'
+//          case 'designer':
+//             return name + ' designs clothes'
+//         default:
+//             return name + ' does something else';   
+//     }
+// }
+// console.log(whatDoYouDo('cop','peter'))
+
+// initailize an array
+// var years=new Array(2000,2001,2004);
+// console.log(years[0],years[1],years[2])
+// //mutate an array
+// years[0]=2006
+// years[years.length]=2008
+// years[5]=2000
+// console.log(years)
+// //different data types in an array
+// var john=['john','smith',2000,'teacher',false];
+// console.log(john.push('blue'))
+// console.log(john.unshift('mr'))
+// console.log(john.pop())
+// console.log(john.pop())
+// console.log(john.shift())
+// console.log(john)
+// console.log(john.indexOf(2000))
+
+// var isJohnDesigner = john.indexOf('teacher') == -1? 'John is not a desinger':'john is a designer';
+// console.log(isJohnDesigner)
+
+
+
+// function tip(cost){
+//     if (cost<50){
+//         return cost*0.2
+//     }else if(cost<200 && cost>49){
+//         return cost*0.15
+//     }else{
+//         return cost*0.1
+//     }
+// }
+// function fcost(ncost){
+//      if (ncost<50){
+//         return ncost*0.2+ncost
+//     }else if(ncost<200 && ncost>49){
+//         return ncost*0.15+ncost
+//     }else{
+//         return ncost*0.1+ncost
+//     }
+// }
+// let originalCost=[124,48,268]
+// let tipArray=[tip(originalCost[0]),tip(originalCost[1]),tip(originalCost[2])]
+// let finalcost=[fcost(originalCost[0]),fcost(originalCost[1]),fcost(originalCost[2]) ]
+
+// console.log(originalCost)
+// console.log(finalcost)
+// console.log(tipArray) 
+
+
+// //objects literal
+// var me={
+//     firstName:'Sochikaima',
+//     lastName:'Nnadi',
+//     birthYear:2006,
+//     family:['jude','chigo','blessing','kamsi'],
+//     job:'student',
+//     isMarried:false
+// }
+// //oblect syntax
+// console.log(me)
+// var brother=new Object();
+// brother.firstName='kamsiyochukwu'
+// brother.lastName='Nnadi'
+// brother['birthYear']=2004
+// console.log(brother)
+
+// //objects and method
+// var me={
+//     firstName:'Sochikaima',
+//     lastName:'Nnadi',
+//     birthYear:2006,
+//     family:['jude','chigo','blessing','kamsi'],
+//     job:'student',
+//     isMarried:false,
+//     calcAge: function(){
+//        this.age= 2025 - this.birthYear
+//     }
+// };
+// me.calcAge()
+// console.log(me)
+
+
+// //loops p2
+// //for loop
+// for (let i=0; i<=20; i+=2){
+//       console.log(i);
+// }
+// var john=['john','smith',2000,'teacher',false];
+// for(i=john.length-1; i>=0; i--){
+//     console.log(john[i])
+// }
+// // while loop
+// var i=0;
+// while(i<john.length){
+//     console.log(john[i]);
+//     i++
+// }
+//continue and break staement
+// var john=['john','smith',2000,'teacher',false,''];
+// for(i=0; i<john.length; i++){
+//     if (typeof john[i]!=='string') continue;
+//     console.log(john[i])
+// } 
+// var john=['john','smith',2000,'teacher',false];
+// for(i=0; i<john.length; i++){
+//     if(typeof john[i] !== 'string') break;
+//     console.log(john[i])
+// }
+
+
+let john={
+         fullName:'John Smith',
+         bills:[124,48,268,180,42],
+         tip:function (){
+            this.tips=[]
+            this.finalValues=[]
+            for(i=0; i<this.bills.length; i++)
+                {
+                 
+                   if (this.bills[i]<50){
+                     bill= this.bills[i]*0.2
+                   }else if(this.bills[i]<200 && this.bills[i]>49){
+                     bill= this.bills[i]*0.15
+                   }else{
+                     bill= this.bills[i]*0.1
+                   }
+                    this.tips[i]=bill;
+                    this.finalValues[i]=this.bills[i]+this.tips[i]
+                }
+            }
+        }
+
+        john.tip()
+        console.log(john)
+
+let mark={
+         fullName:'mark miller',
+         bills:[77,375,110,45],
+         tip:function (){
+            this.tips=[]
+            this.finalValues=[]
+            for(i=0; i<this.bills.length; i++)
+                {
+                 
+                   if (this.bills[i]<100){
+                     bill= this.bills[i]*0.2
+                   }else if(this.bills[i]<300 && this.bills[i]>99){
+                     bill= this.bills[i]*0.1
+                   }else{
+                     bill= this.bills[i]*0.25
+                   }
+                    this.tips[i]=bill;
+                    this.finalValues[i]=this.bills[i]+this.tips[i]
+                }
+            }
+        }
+
+        mark.tip()
+        console.log(mark)
+ 
+ 
